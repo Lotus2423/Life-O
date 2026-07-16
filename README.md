@@ -8,10 +8,7 @@ Predict failures before they happen.
 
 Turn industrial data into intelligent decisions.
 
-![GitHub stars](https://img.shields.io/github/stars/Lotus2423/TwinForge-AI?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Lotus2423/TwinForge-AI?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/Lotus2423/TwinForge-AI?style=for-the-badge)
-![License](https://img.shields.io/github/license/Lotus2423/TwinForge-AI?style=for-the-badge)
+
 
 </div>
 
