@@ -1,139 +1,339 @@
-# 🚀 TwinForge AI
+<div align="center">
 
-<p align="center">
+# 🚀 TwinForge AI
 
 ### AI-Powered Predictive Maintenance & Digital Twin Platform for Industry 4.0
 
-Build once. Monitor forever.
+Predict failures before they happen.
 
-</p>
+Turn industrial data into intelligent decisions.
 
----
+![GitHub stars](https://img.shields.io/github/stars/Lotus2423/TwinForge-AI?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Lotus2423/TwinForge-AI?style=for-the-badge)
+![GitHub issues](https://img.shields.io/github/issues/Lotus2423/TwinForge-AI?style=for-the-badge)
+![License](https://img.shields.io/github/license/Lotus2423/TwinForge-AI?style=for-the-badge)
 
-## 🌍 Overview
-
-TwinForge AI is an Industry 4.0 platform that combines Artificial Intelligence, IoT, Digital Twins, and Data Analytics to predict machine failures before they occur.
-
-The goal is to reduce downtime, lower maintenance costs, improve machine reliability, and help industries make smarter maintenance decisions.
-
----
-
-## ✨ Features
-
-- 🤖 AI-Based Predictive Maintenance
-- 🏭 Digital Twin Dashboard
-- 📡 Real-Time Sensor Monitoring
-- 🌡 Temperature Monitoring
-- ⚙️ RPM Monitoring
-- 📈 Vibration Analysis
-- ⚡ Current Monitoring
-- 🧠 AI Factory Assistant
-- 📊 Analytics Dashboard
-- 🔔 Smart Alerts & Notifications
+</div>
 
 ---
 
-## 🏗 Project Architecture
+# 🌍 About
+
+TwinForge AI is an Industry 4.0 platform that combines Artificial Intelligence, IoT, Digital Twins and Real-Time Monitoring to predict industrial machine failures before they happen.
+
+Instead of waiting for a machine to fail, TwinForge AI continuously monitors sensor data and warns maintenance teams in advance.
+
+---
+
+# 🎯 Vision
+
+Build the future of intelligent manufacturing by creating an affordable Digital Twin platform for every factory.
+
+---
+
+# ⚡ Key Features
+
+✅ Predictive Maintenance
+
+✅ Digital Twin Dashboard
+
+✅ AI Factory Assistant
+
+✅ Live Sensor Monitoring
+
+✅ ESP32 IoT Integration
+
+✅ Machine Health Score
+
+✅ Real-time Alerts
+
+✅ Energy Monitoring
+
+✅ Maintenance Scheduling
+
+✅ Historical Analytics
+
+---
+
+# 🏭 System Architecture
+
+```text
+                   Factory
+
+                      │
+
+                Industrial Machine
+
+                      │
+
+       ┌──────────────┴──────────────┐
+
+ Temperature   Vibration   Current   RPM
+
+       │             │         │      │
+
+       └──────────────┬──────────────┘
+
+                  ESP32 Gateway
+
+                      │
+
+                  WiFi / MQTT
+
+                      │
+
+                 FastAPI Backend
+
+                      │
+
+        ┌─────────────┴──────────────┐
+
+        │                            │
+
+ Prediction AI             Factory Assistant AI
+
+        │                            │
+
+ Maintenance AI              Energy AI
+
+        │                            │
+
+        └─────────────┬──────────────┘
+
+                      │
+
+            Digital Twin Dashboard
 
 ```
-               Sensors
-                  │
-                  ▼
-             ESP32 Gateway
-                  │
-                  ▼
-        FastAPI Backend Server
-                  │
-      ┌───────────┴───────────┐
-      ▼                       ▼
- Prediction AI        Factory Assistant AI
-      │                       │
-      └───────────┬───────────┘
-                  ▼
-        Digital Twin Dashboard
-```
 
 ---
 
-## 🛠 Tech Stack
+# 🤖 AI Agents
 
-### Frontend
+## 🧠 Prediction AI
+
+Predicts machine failures before they occur.
+
+---
+
+## 💬 Factory Assistant AI
+
+Answers questions like:
+
+> Why is Machine-01 in warning?
+
+---
+
+## 🔧 Maintenance AI
+
+Creates maintenance schedules automatically.
+
+Example:
+
+Motor-01 should be serviced within the next 5 days.
+
+---
+
+## ⚡ Energy AI
+
+Analyzes power consumption and identifies energy waste.
+
+---
+
+## 🏭 Digital Twin AI
+
+Updates the 3D machine model in real time based on sensor data.
+
+---
+
+# 📡 Sensors
+
+| Sensor | Purpose |
+|---------|----------|
+| Temperature | Overheating Detection |
+| Vibration | Bearing Failure |
+| Current | Motor Load |
+| RPM | Shaft Speed |
+| Voltage | Power Monitoring |
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
 
 - React
 - TypeScript
 - Vite
-
-### Backend
-
-- FastAPI
-- Python
-
-### Database
-
-- PostgreSQL
-
-### AI
-
-- Scikit-learn
-- TensorFlow
-- LLM
-
-### Hardware
-
-- ESP32
-- Temperature Sensor
-- Vibration Sensor
-- Current Sensor
-- RPM Sensor
+- Three.js
+- React Three Fiber
+- Tailwind CSS
 
 ---
 
-## 📂 Project Structure
+## Backend
 
-```
+- FastAPI
+- Python
+- WebSockets
+
+---
+
+## AI
+
+- Scikit-Learn
+- TensorFlow
+- XGBoost
+- LLM
+
+---
+
+## Database
+
+- PostgreSQL
+
+---
+
+## IoT
+
+- ESP32
+- MQTT
+- WiFi
+
+---
+
+# 📂 Project Structure
+
+```text
 TwinForge-AI
-│
+
 ├── frontend
 ├── backend
 ├── docs
 ├── hardware
 ├── datasets
 ├── digital-twin
-└── README.md
+├── README.md
+├── LICENSE
+└── docker-compose.yml
 ```
 
 ---
 
-## 🎯 Vision
+# 📊 Roadmap
 
-Create an affordable AI-powered predictive maintenance platform for industries of all sizes.
+## Phase 1
+
+- [x] Documentation
+- [x] GitHub Repository
+- [x] Project Planning
 
 ---
 
-## 📅 Roadmap
+## Phase 2
 
-- [x] Project Planning
-- [x] Documentation
-- [x] GitHub Setup
-- [ ] Frontend Dashboard
-- [ ] Backend APIs
+- [ ] React Dashboard
+
+- [ ] Authentication
+
+- [ ] Machine Cards
+
+---
+
+## Phase 3
+
+- [ ] FastAPI Backend
+
+- [ ] Database
+
+- [ ] APIs
+
+---
+
+## Phase 4
+
 - [ ] ESP32 Integration
-- [ ] AI Prediction Engine
+
+- [ ] Live Sensor Data
+
+---
+
+## Phase 5
+
+- [ ] AI Prediction
+
+- [ ] Factory Assistant
+
+---
+
+## Phase 6
+
 - [ ] Digital Twin
+
+- [ ] Real-time Animation
+
+---
+
+## Phase 7
+
 - [ ] Industry 4.0 Platform
 
 ---
 
-## 👨‍💻 Developer
+# 📸 Preview
 
-**Lotus Kumar**
+Coming Soon...
 
-Mechanical Engineering Student
+Dashboard
 
-Building AI + IoT + Digital Twin solutions for Industry 4.0.
+AI Assistant
+
+Digital Twin
+
+Analytics
 
 ---
 
-## ⭐ Support
+# 📈 Current Status
 
-If you like this project, consider giving it a ⭐ on GitHub.
+🟢 Planning
+
+🟢 Documentation
+
+🟢 Frontend Started
+
+🟡 Backend Development
+
+⚪ AI Training
+
+⚪ Hardware Integration
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+Feel free to fork this repository and submit a Pull Request.
+
+---
+
+# 👨‍💻 Developer
+
+## Lotus 
+
+Mechanical Engineering Student
+
+AI • Digital Twin • IoT • Robotics • Full Stack Development
+
+Building real-world engineering solutions with AI.
+
+---
+
+<div align="center">
+
+## ⭐ If you like this project, don't forget to Star this repository.
+
+Made with ❤️ by Lotus 
+
+</div>
