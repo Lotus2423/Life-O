@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 TwinForge AI
+# 🚀 LIFE AI
 
 ### AI-Powered Predictive Maintenance & Digital Twin Platform for Industry 4.0
 
@@ -16,7 +16,7 @@ Turn industrial data into intelligent decisions.
 
 # 🌍 About
 
-TwinForge AI is an Industry 4.0 platform that combines Artificial Intelligence, IoT, Digital Twins and Real-Time Monitoring to predict industrial machine failures before they happen.
+LIFE AI is an Industry 4.0 platform that combines Artificial Intelligence, IoT, Digital Twins and Real-Time Monitoring to predict industrial machine failures before they happen.
 
 Instead of waiting for a machine to fail, TwinForge AI continuously monitors sensor data and warns maintenance teams in advance.
 
