@@ -1,4 +1,4 @@
-<div align="center">
+_<div align="center">
 
 # 🚀 LIFE AI
 
@@ -24,7 +24,7 @@ Instead of waiting for a machine to fail, TwinForge AI continuously monitors sen
 
 # 🎯 Vision
 
-Build the future of intelligent manufacturing by creating an affordable Digital Twin platform for every factory.
+Build the future of intelligent manufacturing by creating an affordable Digital .
 
 ---
 
@@ -334,3 +334,4 @@ Building real-world engineering solutions with AI.
 Made with ❤️ by Lotus 
 
 </div>
+_
