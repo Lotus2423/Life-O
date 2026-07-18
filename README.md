@@ -48,7 +48,7 @@ Build the future of intelligent manufacturing by creating an affordable Digital 
 
 ✅ Maintenance Scheduling
 
-✅ Historical Analytics
+
 
 ---
 
