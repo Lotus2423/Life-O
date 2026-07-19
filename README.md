@@ -44,7 +44,7 @@ Build the future of intelligent manufacturing by creating an affordable Digital 
 
 ✅ Real-time Alerts
 
-✅ Energy Monitoring
+
 
 
 
